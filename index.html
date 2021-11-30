@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn-tailwindcss.vercel.app/"></script>
+  <title>Card component</title>
+ 
+<!-- Script para criar as cores necessarias -->
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          darkblue: '#090b1a',
+          card: '#1b1938',
+          violet: {
+                  "50": "#103107101",
+                  "100": "#f8f2fc",
+                  "200": "#e5cdf4",
+                  "300": "#d1a7ec",
+                  "400": "#be82e3",
+                  "500": "#aa5cdb",
+                  "600": "#8d2cc8",
+                  "700": "#692196",
+                  "800": "#431560",
+                  "900": "#1d092a"
+              }
+            },
+          },
+      },
+  }
+</script>
+</head>
+
+<body class="bg-darkblue">
+  
+<div class="px-8 mx-auto max-w-screen-2xl rounded-xl h-screen flex justify-center items-center">
+<div class="relative flex grid grid-cols-1 lg:grid-cols-2 shadow-2xl bg-card rounded-xl">
+    
+    
+    
+    <!-- COLUNA IMAGEM-->
+
+    <div class="lg:order-last relative flex ">
+      <img src="/images/image-header-desktop.jpg" alt="Office work" class="lg:rounded-r-xl rounded-t-xl lg:rounded-tl-none object-cover w-full h-full ">
+      <div class="absolute inset-0 bg-violet-600 bg-opacity-80" style="mix-blend-mode: multiply;"></div>
+    </div>
+    
+      <!-- COLUNA TEXTO -->
+      <div class="px-8 my-auto pt-10 pb-20 text-center lg:text-left relative flex text-white font-bold ">
+        
+        <div class="lg:pb-8 lg:p-24 ">
+          <h1 class="text-4xl">Get <span class="text-violet-500">insights</span> that help your bussiness grow.</h1>
+          <p class="py-10 text-gray-400 font-light text-base"> Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+          <!-- GRID DENTO DA GRID -->
+            <div class="relative grid grid-cols-1 lg:grid-cols-3 text-2xl normal-case"> 
+              <div class=""> 
+                10k+
+                <p class="text-gray-500 text-xs">COMPANIES</p>
+              </div>
+              <div class="py-8 lg:py-0">
+              314
+                <p class="text-gray-500 text-xs">TEMPLATES</p>
+              </div>
+              <div class="">
+                12M+ 
+                <p class="text-gray-500 text-xs">QUERIES</p>
+          </div>
+
+          </div>
+        </div>
+      </div>
+</div>    
+</div>
+  
+  <footer>
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+    </style>
+    <div>
+        <div class="attribution lg:py-16 text-center fixed left-0 bottom-0 right-0 text-white">Coded by
+          <a href="https://github.com/migsilva89/" target="blank"> 
+            <span class="text-violet-500 hover:text-white">Miguel Silva.</span>
+          </a>
+        </div>
+    </div>
+  </footer>
+
+</body>
+</html>
