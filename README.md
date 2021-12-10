@@ -1,6 +1,8 @@
 ## Sign form with active state.
 
-![alt text](http://images/screenshot.jpg)
+
+![alt text](./images/screenshot.png)
+
 
 Taiwind pratice.
 
