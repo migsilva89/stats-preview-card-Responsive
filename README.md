@@ -1,4 +1,4 @@
-## Sign form with active state.
+## Responsive card 
 
 
 ![alt text](./images/screenshot.png)
@@ -7,7 +7,7 @@
 Taiwind pratice.
 
 Design and requests provided by: https://www.frontendmentor.io/ 
-
+  
 ## Installation
 
 
