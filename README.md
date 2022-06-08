@@ -1,22 +1,24 @@
-## Responsive card 
+# Frontend Mentor - Stats preview card component solution
+
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). 
 
 
-![alt text](./images/screenshot.png)
+### The challenge
 
+Users should be able to:
 
-Taiwind pratice.
+- View the optimal layout depending on their device's screen size
 
-Design and requests provided by: https://www.frontendmentor.io/ 
-  
-## Installation
+### Made with HTML and Tailwind CSS.
 
+![](./images/screenshot.png)
 
-```bash
-Open index.html in your browser.
-```
+### Links
 
-## Usage
+- Solution URL: [https://github.com/migsilva89/stats-preview-card-Responsive](https://github.com/migsilva89/stats-preview-card-Responsive)
+- Live Site URL: [https://stats-preview-card-component-main-alpha.vercel.app/](https://stats-preview-card-component-main-alpha.vercel.app/)
 
-Tailwind CSS: https://tailwindcss.com/
+Any tips to improve are very welcome! :)
 
-Feel free to use it. 
+Regards, 
+Miguel Silva 
